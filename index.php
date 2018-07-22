@@ -6,9 +6,10 @@
  * Time: 12:26
  */
 require 'vendor/autoload.php';
+
 use AW\Router;
-use AW\Request;
-class_alias(Request::class, 'Request');
+use AW\Request as Request;
+
 $router = new Router(new Request($_SERVER, $_POST, $_GET));
 
 class Teste{
