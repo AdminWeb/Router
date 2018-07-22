@@ -1,0 +1,15 @@
+{
+    "name": "igor/router",
+    "authors": [
+        {
+            "name": "IgorDePaula",
+            "email": "principe.borodin@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4":{
+          "AW\\":"src"
+      }
+    },
+    "require": {}
+}
